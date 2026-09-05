@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setup.tools.build_meta"
+
+[project]
+name = "tiny-bounty-workflow"
+version = "1.0.0"
+description = "Autonomous bounty workflow engine with anti-scam filters"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Hussain Al-Saibai", email = "hussain.alsaibai@gmail.com"}]
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+keywords = ["bounty", "github", "autonomous", "agent", "workflow", "security"]
+
+[project.urls]
+Homepage = "https://github.com/hussain-alsaibai/tiny-bounty-workflow"
+Repository = "https://github.com/hussain-alsaibai/tiny-bounty-workflow"
