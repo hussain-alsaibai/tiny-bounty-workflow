@@ -5,7 +5,8 @@
 > Zero dependencies. MIT. ~500 lines.
 
 ```bash
-pip install tiny-bounty-workflow
+# From GitHub (recommended -- not yet on PyPI)
+pip install git+https://github.com/hussain-alsaibai/tiny-bounty-workflow.git
 # or just copy tiny_bounty_workflow/bounty_workflow.py
 ```
 
